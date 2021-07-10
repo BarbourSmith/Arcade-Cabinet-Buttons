@@ -4,9 +4,9 @@
 
 ![](/project.svg)
 
-<h3 style="font-size:20px;"><strong>Left Side Buttons:</strong></h3>Button layout from: http://dumbpcs.blogspot.com/2013/04/arcade-joystick-for-mame-howto.html
+<h3 style="font-size:20px;"><strong>Left Side Buttons:</strong></h3>Button layout from:Â http://dumbpcs.blogspot.com/2013/04/arcade-joystick-for-mame-howto.html
 
 
-<h3 style="font-size:20px;"><strong>Left Side Buttons:</strong></h3>Button layout from: http://dumbpcs.blogspot.com/2013/04/arcade-joystick-for-mame-howto.html
+<h3 style="font-size:20px;"><strong>Left Side Buttons:</strong></h3>Button layout from:Â http://dumbpcs.blogspot.com/2013/04/arcade-joystick-for-mame-howto.html
 
 

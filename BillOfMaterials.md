@@ -2,6 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|Arcade Cabinet Controls|1|$39.99|[Amazon](https://www.amazon.com/dp/B07H7GF337?tag=maslowcnc01-20)|
+|Total: |1|$39.99| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $119.97
