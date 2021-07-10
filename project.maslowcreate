@@ -302,8 +302,8 @@
         {
             "atomType": "Molecule",
             "name": "Buttons",
-            "x": 0.26755555555555555,
-            "y": 0.46564885496183206,
+            "x": 0.26844444444444443,
+            "y": 0.4732824427480916,
             "uniqueID": 904213,
             "ioValues": [
                 {
@@ -507,9 +507,9 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Left Side Buttons",
-                    "x": 0.17777777777777778,
-                    "y": 0.1946564885496183,
+                    "name": "Button Array",
+                    "x": 0.17955555555555555,
+                    "y": 0.183206106870229,
                     "uniqueID": 375405,
                     "ioValues": [
                         {
@@ -526,7 +526,7 @@
                             "y": 0.25190839694656486,
                             "uniqueID": 451187,
                             "ioValues": [],
-                            "readmeText": "Button layout from:ÃÂ http://dumbpcs.blogspot.com/2013/04/arcade-joystick-for-mame-howto.html"
+                            "readmeText": "Button layout from:ÃÂÃÂ http://dumbpcs.blogspot.com/2013/04/arcade-joystick-for-mame-howto.html"
                         },
                         {
                             "atomType": "Translate",
@@ -610,8 +610,8 @@
                         {
                             "atomType": "Translate",
                             "name": "Translate",
-                            "x": 0.34933333333333333,
-                            "y": 0.7175572519083969,
+                            "x": 0.3751111111111111,
+                            "y": 0.6717557251908397,
                             "uniqueID": 252710,
                             "ioValues": [
                                 {
@@ -646,6 +646,10 @@
                                 {
                                     "name": "3D shape 2",
                                     "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 3",
+                                    "ioValue": 10
                                 }
                             ]
                         },
@@ -667,6 +671,31 @@
                                 {
                                     "name": "yDist",
                                     "ioValue": 1.4173228346456694
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Translate",
+                            "name": "Translate",
+                            "x": 0.35288888888888886,
+                            "y": 0.9083969465648855,
+                            "uniqueID": 332457,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "atoms/558782/904213/375405/415768Translate"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 3.5
                                 },
                                 {
                                     "name": "zDist",
@@ -718,6 +747,13 @@
                             "ap2ID": 812633
                         },
                         {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 415768,
+                            "ap2ID": 332457
+                        },
+                        {
                             "ap1Name": "number or geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
@@ -758,6 +794,13 @@
                             "ap2Primary": false,
                             "ap1ID": 332096,
                             "ap2ID": 888186
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 3",
+                            "ap2Primary": false,
+                            "ap1ID": 332457,
+                            "ap2ID": 888186
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -790,7 +833,7 @@
                 },
                 {
                     "atomType": "Equation",
-                    "name": "Equation",
+                    "name": "-1*S",
                     "x": 0.33955555555555555,
                     "y": 0.4236641221374046,
                     "uniqueID": 822229,
@@ -843,7 +886,7 @@
                 },
                 {
                     "atomType": "Equation",
-                    "name": "Equation",
+                    "name": "S-5.25",
                     "x": 0.2808888888888889,
                     "y": 0.6755725190839695,
                     "uniqueID": 316018,
