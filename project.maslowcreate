@@ -4,7 +4,12 @@
     "x": 0,
     "y": 0,
     "uniqueID": 558782,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Spacing",
+            "ioValue": 9
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
         {
@@ -297,13 +302,17 @@
         {
             "atomType": "Molecule",
             "name": "Buttons",
-            "x": 0.2648888888888889,
-            "y": 0.45801526717557256,
+            "x": 0.26755555555555555,
+            "y": 0.46564885496183206,
             "uniqueID": 904213,
             "ioValues": [
                 {
                     "name": "Joystick",
                     "ioValue": "atoms/558782/158895/919399Translate"
+                },
+                {
+                    "name": "Spacing",
+                    "ioValue": 9
                 }
             ],
             "topLevel": false,
@@ -772,6 +781,20 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 0.27644444444444444,
+                    "y": 0.35877862595419846,
+                    "uniqueID": 822229,
+                    "ioValues": [
+                        {
+                            "name": "S",
+                            "ioValue": 9
+                        }
+                    ],
+                    "currentEquation": "-1*S"
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 0.44888888888888884,
@@ -795,6 +818,14 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Joystick",
+                    "x": 0.013333333333333334,
+                    "y": 0.5114503816793893,
+                    "uniqueID": 680438,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Group",
@@ -828,14 +859,6 @@
                     "selectedColorIndex": "2"
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Joystick",
-                    "x": 0.013333333333333334,
-                    "y": 0.7213740458015268,
-                    "uniqueID": 680438,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 0.472,
@@ -859,6 +882,14 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Spacing",
+                    "x": 0.013333333333333334,
+                    "y": 0.8129770992366412,
+                    "uniqueID": 168183,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Group",
@@ -1193,25 +1224,18 @@
                     "ap2ID": 280045
                 },
                 {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 822229,
+                    "ap2ID": 280045
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 280045,
                     "ap2ID": 608504
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 406075,
-                    "ap2ID": 278908
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": 608504,
-                    "ap2ID": 261082
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -1231,8 +1255,36 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
+                    "ap1ID": 406075,
+                    "ap2ID": 278908
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 608504,
+                    "ap2ID": 261082
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 278908,
                     "ap2ID": 633589
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 168183,
+                    "ap2ID": 278908
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "S",
+                    "ap2Primary": false,
+                    "ap1ID": 168183,
+                    "ap2ID": 822229
                 },
                 {
                     "ap1Name": "geometry",
@@ -1258,6 +1310,14 @@
             ],
             "fileTypeVersion": 1,
             "simplify": false
+        },
+        {
+            "atomType": "Input",
+            "name": "Spacing",
+            "x": 0.013333333333333334,
+            "y": 0.6259541984732824,
+            "uniqueID": 348701,
+            "ioValues": []
         },
         {
             "atomType": "Group",
@@ -1321,6 +1381,13 @@
             "ap2Primary": false,
             "ap1ID": 904213,
             "ap2ID": 502764
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Spacing",
+            "ap2Primary": false,
+            "ap1ID": 348701,
+            "ap2ID": 904213
         },
         {
             "ap1Name": "geometry",
